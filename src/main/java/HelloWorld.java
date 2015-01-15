@@ -14,6 +14,7 @@ public class HelloWorld extends HttpServlet {
             message = "Deis";
         }
         resp.getWriter().print("Powered by " + message);
+        resp.getWriter().print("Hello World ");
     }
 
     public static void main(String[] args) throws Exception{
